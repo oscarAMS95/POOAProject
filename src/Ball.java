@@ -62,7 +62,7 @@ public class Ball{
 	
 	public void move() {
 		PosX += xDir;
-		//PosY += yDir;
+		PosY += yDir;
 	}
 	
 	public void stopBall() {

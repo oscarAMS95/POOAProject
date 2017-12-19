@@ -39,7 +39,7 @@ public class GUI extends JFrame {
 		timer.setBounds(565,10,120,60);
 		
 		timeGame = new Timer(1000, new ActionListener() {
-			int time = 5;
+			int time = 120;
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				time--;
